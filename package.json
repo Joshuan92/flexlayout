@@ -1,0 +1,26 @@
+{
+  "name": "flexlayout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joshuan92/flexlayout.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joshuan92/flexlayout/issues"
+  },
+  "homepage": "https://github.com/Joshuan92/flexlayout#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0",
+    "scss": "^0.2.4"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}

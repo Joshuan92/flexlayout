@@ -1,0 +1,76 @@
+// Variables
+$header: darkgrey;
+$sidebar: orange;
+$article: white;
+$footer: grey;
+
+$text: white;
+
+* {
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+
+}
+
+body{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh;   
+    
+}
+
+h1{
+    padding: 2rem 1rem;
+    margin: 0 auto; 
+    color: $text;
+}
+header{
+    background-color: $header;    
+}
+main{
+    display: flex;
+    flex: 1 0 auto;
+}
+
+.container{
+    display: flex;  
+    
+    
+    
+    .sidebar{
+        background-color: $sidebar;
+        
+    }
+    .article{
+        background-color: $article;
+        padding: 0 1rem;
+        
+        h1{
+            color: black;
+            padding: 2rem 1rem 1rem;
+            
+        }
+        .paragraph{
+            border-top: black solid 1px;
+
+        }
+
+    }
+
+}
+
+footer{
+    background-color: $footer;
+    flex-shrink: 0;
+
+}
+
+p{
+    padding: 1rem 1rem;
+    margin: 0 auto; 
+}
