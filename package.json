@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/Joshuan92/flexlayout#readme",
   "dependencies": {
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "scss": "^0.2.4"
   },
   "devDependencies": {
